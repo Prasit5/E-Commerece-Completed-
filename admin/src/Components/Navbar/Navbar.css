@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 130px;
+}
+.nav-profile{
+    width: 90px;
+}
+
+.nav-text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    flex-grow: 1; /* Allow the text to grow and occupy available space */
+    margin-left: 20px;
+}
+  
+.header {
+    color: #333; /* Choose your desired color */
+}
+  
+.sub-header {
+    color: #666; /* Choose your desired color */
+}
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .nav-logo{
+        width: 100px;
+    }
+    .nav-profile{
+        width: 80px;
+    }
+
+}

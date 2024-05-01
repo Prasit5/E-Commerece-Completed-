@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './popular.css'
-import popularProduct from '../Assets/popular'
 import Item from '../items/item'
 const Popular = () => {
 

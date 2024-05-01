@@ -9,7 +9,7 @@ const ListProduct = () => {
       const fetchInfo = async () =>{//So what this fetchInfo function does is it async and await must be used together to wait for 
         //user to click on the button then the link will be called. Then accept response in json format and 
         //displayy data in setallproduct variubale
-        await fetch('http://localhost:4000/allproducts')
+        await fetch('https://server-6o7b.onrender.com/allproducts')
         .then((res)=>res.json())
         .then((data)=>{setAllproducts(data)});
       }
@@ -19,7 +19,7 @@ const ListProduct = () => {
       },[])
 
       const remove_product = async (id)=>{
-        await fetch('http://localhost:4000/removeproduct', {
+        await fetch('https://server-6o7b.onrender.com/removeproduct', {
           method:'POST',
           headers:{
             Accept:'application/json',

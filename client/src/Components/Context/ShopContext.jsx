@@ -20,12 +20,12 @@ const ShopContextProvider = (props) => {//Creates a new conmponent which accepts
     const [cartItems,setCartItems] = useState(getDefaultCart());
 
     useEffect(() => {
-        fetch("http://localhost:4000/allproducts")
+        fetch("https://server-6o7b.onrender.com/allproducts")
           .then((response) => response.json())
           .then((data) => setDataProduct(data));
 
           if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/getcart',{
+            fetch('https://server-6o7b.onrender.com/getcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',
@@ -41,7 +41,7 @@ const ShopContextProvider = (props) => {//Creates a new conmponent which accepts
     const addToCart = (itemId) => {
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
         if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/addtocart',{
+            fetch('https://server-6o7b.onrender.com/addtocart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',
@@ -58,7 +58,7 @@ const ShopContextProvider = (props) => {//Creates a new conmponent which accepts
     const removeFromCart = (itemId) => {
         setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
         if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/removefromcart',{
+            fetch('https://server-6o7b.onrender.com/removefromcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',

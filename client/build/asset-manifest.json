@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14ccb314.css",
+    "main.js": "/static/js/main.e17f3623.js",
+    "static/media/icon.jpg": "/static/media/icon.2d71914ea33ea44124c4.jpg",
+    "static/media/women9.jpg": "/static/media/women9.dc95d60a21bae24d685b.jpg",
+    "static/media/kidsBanner.jpg": "/static/media/kidsBanner.8778f76e778563ce0a0c.jpg",
+    "static/media/womenBanner.jpg": "/static/media/womenBanner.2fe100ee64223c5b2788.jpg",
+    "static/media/men1.jpg": "/static/media/men1.c9aa31a016ad622d91ae.jpg",
+    "static/media/bye.jpg": "/static/media/bye.5f6f829b5a285ef84123.jpg",
+    "static/media/women5.jpg": "/static/media/women5.5edfdef339653428d4c8.jpg",
+    "static/media/instagram.png": "/static/media/instagram.0f8330a07335387f1e16.png",
+    "static/media/footerLogo.png": "/static/media/footerLogo.241be44aa1d8c1d10c6a.png",
+    "static/media/logo.png": "/static/media/logo.241be44aa1d8c1d10c6a.png",
+    "static/media/menBanner.jpg": "/static/media/menBanner.65340fe1f7b5312874b0.jpg",
+    "static/media/cart.png": "/static/media/cart.c684be4b8f15be8c475d.png",
+    "static/media/exclusive.jpeg": "/static/media/exclusive.1d110b708c72d39c5331.jpeg",
+    "static/media/women8.jpg": "/static/media/women8.990c2b70033cc4d839e3.jpg",
+    "static/media/carts.png": "/static/media/carts.0536a050c115dd91665c.png",
+    "static/media/pinterest.png": "/static/media/pinterest.e38f3012dc571ed17e78.png",
+    "static/media/starIcon.png": "/static/media/starIcon.c874d954ba85cbc2e9da.png",
+    "index.html": "/index.html",
+    "main.14ccb314.css.map": "/static/css/main.14ccb314.css.map",
+    "main.e17f3623.js.map": "/static/js/main.e17f3623.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14ccb314.css",
+    "static/js/main.e17f3623.js"
+  ]
+}

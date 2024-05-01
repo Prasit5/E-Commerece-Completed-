@@ -28,7 +28,7 @@ const AddProduct = () => {
         formData.append('product', image);//Append the selected image to the FormData object with the key 'product'
 
         //the purpose of this code is how server will respond when user upload image,
-        await fetch ('http://localhost:4000/upload', {
+        await fetch ('https://server-6o7b.onrender.com/upload', {
           method:'POST',
             headers:{
               Accept:'application/json' //only accept json format
@@ -39,7 +39,7 @@ const AddProduct = () => {
         {
             product.image = responseData.image_url;
             console.log(product);
-            await fetch('http://localhost:4000/addproduct', {
+            await fetch('https://server-6o7b.onrender.com/addproduct', {
               method:'POST',
               headers:{
                 Accept:'application/json',

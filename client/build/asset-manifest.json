@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.14ccb314.css",
-    "main.js": "/static/js/main.e17f3623.js",
+    "main.js": "/static/js/main.d58e574b.js",
     "static/media/icon.jpg": "/static/media/icon.2d71914ea33ea44124c4.jpg",
     "static/media/women9.jpg": "/static/media/women9.dc95d60a21bae24d685b.jpg",
     "static/media/kidsBanner.jpg": "/static/media/kidsBanner.8778f76e778563ce0a0c.jpg",
     "static/media/womenBanner.jpg": "/static/media/womenBanner.2fe100ee64223c5b2788.jpg",
-    "static/media/men1.jpg": "/static/media/men1.c9aa31a016ad622d91ae.jpg",
     "static/media/bye.jpg": "/static/media/bye.5f6f829b5a285ef84123.jpg",
     "static/media/women5.jpg": "/static/media/women5.5edfdef339653428d4c8.jpg",
     "static/media/instagram.png": "/static/media/instagram.0f8330a07335387f1e16.png",
@@ -21,10 +20,10 @@
     "static/media/starIcon.png": "/static/media/starIcon.c874d954ba85cbc2e9da.png",
     "index.html": "/index.html",
     "main.14ccb314.css.map": "/static/css/main.14ccb314.css.map",
-    "main.e17f3623.js.map": "/static/js/main.e17f3623.js.map"
+    "main.d58e574b.js.map": "/static/js/main.d58e574b.js.map"
   },
   "entrypoints": [
     "static/css/main.14ccb314.css",
-    "static/js/main.e17f3623.js"
+    "static/js/main.d58e574b.js"
   ]
 }

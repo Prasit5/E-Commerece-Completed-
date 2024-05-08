@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './NewCollections.css';
-import newCollections from '../Assets/newCollections';
 import Item from '../items/item';
 
 export const NewCollections = () => {
